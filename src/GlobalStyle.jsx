@@ -15,17 +15,15 @@ box-sizing:border-box;
 `;
 
 export const Container = styled.div` 
-  width:80vw;
-  height:80vh;
   display:flex;
   flex-direction:row;
   align-items:center;
   justify-content:center;
+  height: 700px;
+    width:1300px;
   
 
   @media screen and (max-width:800px){
-    width:100%;
-    height:100%;
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -61,7 +59,7 @@ export const Container = styled.div`
     align-items:center;
     margin:15px;
     padding:10px;
-    width:800px;
+    width:600px;
     height:600px;
 
     .para{
@@ -93,11 +91,13 @@ export const Container = styled.div`
       border: 1px solid grey;
 
       @media screen and (max-width:1230px){
-        width:40vw;
+        width:450px;
 
       }
-      @media screen and (max-width:1100px){
-        width:35vw;
+
+      @media screen and (max-width:900px){
+        width:350px;
+
       }
 
       @media screen and (max-width:700px){
@@ -144,18 +144,19 @@ export const Container = styled.div`
       }
 
       @media screen and (max-width:1230px){
-        left:13%;
-        width:30vw;
+        left:30px;
+        width:400px;
       }
 
-      @media screen and (max-width:1230px){
-        left:15%;
-        width:25vw;
-      }
-
-      @media screen and (max-width:700px){
-        left:8px;
+   
+      @media screen and (max-width:900px){
+        left:18px;
         width:300px;
+      }
+
+      @media screen and (max-width:600px){
+        margin:auto;
+        width:250px;
       }
      }
      
@@ -201,8 +202,8 @@ export const Container = styled.div`
   }
 
     @media  screen and ( max-width:1230px){
-      width:50vw;
-      height:70vh;
+      width:500px;
+      height:550px;
       display:flex;
       flex-direction:column;
       align-items:center;
@@ -210,9 +211,29 @@ export const Container = styled.div`
 
     }
 
-    @media  screen and ( max-width:700px){
-      width:400px;
-      height:600px;
+    @media  screen and ( max-width:1000px){
+      width:500px;
+      height:550px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+    }
+
+    @media  screen and ( max-width:900px){
+      width:380px;
+      height:550px;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+    }
+
+    
+
+    @media  screen and ( max-width:600px){
+      width:max-content;
+      height:540px;
       display:flex;
       flex-direction:column;
       align-items:center;
